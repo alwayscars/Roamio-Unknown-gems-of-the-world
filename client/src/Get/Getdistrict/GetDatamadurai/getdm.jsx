@@ -18,34 +18,18 @@ function Getm() {
 
     return (
       <>
-        <Link to="/getdistrict"className="custom-button back-button" aria-label="Go back" type="button"></Link>
-        <h1>Gems of Madurai</h1>
+        <Link to="/getdistrict" className="custom-button back-button" aria-label="Go back" type="button"><ArrowLeftIcon className="back-button-icon" /></Link>
+        <h1 className="heading-primary font-medium text-5xl md:text-7xl tracking-[-2.16px] leading-tight mb-8">
+                Gems of Madurai
+              </h1>
         {place.length===0 ?(
       <div className='noData'>
         <h3>No place found. Places will be updated soon</h3>
         </div>
-    ) :(
-    <table className='table  table-bordered'>
-      <tbody>
-      {place.map((items)=>{
+    ) :( place.map((items)=>{
           return(
             <>
-        {/* <tr>
-          <td>{items.name}</td>
-        </tr>
-        <tr>
-          <td>{items.State}</td>
-        </tr> 
-        <tr>
-          <td><img src={`http://localhost:8000/uploads/${items.filename}`}></img></td>
-        </tr> 
-        <tr>
-          <td><a href={`${items.maplink}`}>Click here to see on maps</a></td>
-        </tr>  */}
-
-
-        
-
+     
   <main className="main-container min-h-screen w-full px-4 md:px-8 lg:px-16 py-8">
       <div className="custom-card">
         <div className="custom-card-content">
@@ -84,10 +68,9 @@ function Getm() {
 
         </>
     )
-        })}
+        })
         
-      </tbody>
-    </table>)}
+    )}
         
       </>
     )

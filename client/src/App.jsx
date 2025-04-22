@@ -1,6 +1,4 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+import { PencilLine, Search } from 'lucide-react';
 import './App.css'
 import { Link } from 'react-router-dom';
 function App() {
@@ -8,9 +6,13 @@ function App() {
 
   return (
     <>
-      <h1>You are here to </h1>
-      <Link to="/addplaces" type="button" class="btn btn-outline-primary">Give a place</Link>
-      <Link to="/getstate" type="button" class="btn btn-outline-primary">Search a place</Link>
+      <h1 className="main-heading">Welcome to Roamio</h1>
+      <h2 className="main-heading">You are here to</h2>
+      <div className="button-container">
+      <Link to="/addplaces" type="button"  class="btn btn-primary" ><PencilLine /> Give a place </Link> 
+      <h1></h1>
+      <Link to="/getstate" type="button"   class="btn btn-primary"> <Search />  Search a place</Link>
+      </div>
     </>
   )
 }
