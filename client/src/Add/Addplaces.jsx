@@ -38,7 +38,7 @@ function Add() {
     formData.append("description", item.description);
     formData.append("State", item.state);
     formData.append("District", item.district);
-    formData.append("image", item.image); // ✅ Append image
+    formData.append("image", item.image);  
 
     for (let pair of formData.entries()) {
       console.log(pair[0]+ ': ' + pair[1]);
@@ -62,6 +62,7 @@ function Add() {
  }
 
   return (
+    <div className='container'>
     <div className="addUser" onSubmit={submitForm}>
      <Link to="/" className="custom-button back-button" aria-label="Go back" type="button"><ArrowLeftIcon className="back-button-icon" /></Link>
    <h3>Add a new gem</h3>
@@ -108,6 +109,7 @@ function Add() {
     <button type="submit" class="btn btn-primary">Submit</button>
     </div>
    </form>
+    </div>
     </div>
   )
 }
