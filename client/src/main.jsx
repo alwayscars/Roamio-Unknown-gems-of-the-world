@@ -8,6 +8,8 @@ import Getkk from './Get/Getdistrict/Getdatakanyakumari/Getdkk.jsx'
 import Getm from './Get/Getdistrict/GetDatamadurai/getdm.jsx'
 import Getds from './Get/Getdistrict/GetDatasivaganga/getds.jsx'
 import Gettiru from './Get/Getdistrict/Getdatatirunelveli/getdtiru.jsx'
+import Gettoothu from './Get/Getdistrict/Getdatatoothu/getdtoothu.jsx'
+import Getten from './Get/Getdistrict/Getdataten/getdten.jsx'
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
   {
@@ -42,6 +44,14 @@ const route = createBrowserRouter([
         {
           path:"/gettiru",
           element:<Gettiru/>
+        },
+        {
+          path:"/gettoothu",
+          element:<Gettoothu/>
+        },
+        {
+          path:"/getten",
+          element:<Getten/>
         }
 
 ]);
