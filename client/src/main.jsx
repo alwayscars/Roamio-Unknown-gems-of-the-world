@@ -10,6 +10,7 @@ import Getds from './Get/Getdistrict/GetDatasivaganga/getds.jsx'
 import Gettiru from './Get/Getdistrict/Getdatatirunelveli/getdtiru.jsx'
 import Gettoothu from './Get/Getdistrict/Getdatatoothu/getdtoothu.jsx'
 import Getten from './Get/Getdistrict/Getdataten/getdten.jsx'
+import Getvirudu from './Get/Getdistrict/GetdataVirudhu/virudu.jsx'
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const route = createBrowserRouter([
         {
           path:"/getten",
           element:<Getten/>
+        },
+        {
+           path:"/getvirudu",
+          element:<Getvirudu/>
         }
 
 ]);

@@ -30,11 +30,15 @@ function Getd() {
           <area shape="poly" coords="335,746,347,746,354,754,360,760,365,764,368,772,368,779,372,785,376,797,368,801,364,806,355,815,349,828,346,841,349,846,348,853,341,863,341,878,339,897,331,907,327,916,319,920,310,923,295,921,295,912,292,905,291,894,286,887,283,881,290,860,290,848,288,835,279,826,270,820,269,812,268,799,273,791,264,788,272,776,302,774" href="#" onClick={(e) => {
             e.preventDefault(); // Prevents default <area> behavior
             navigate('/gettoothu'); // Navigate to another route
-          }}  alt="Region4" />
+          }}  alt="Region5" />
           <area shape="poly" coords="204,737,213,738,221,739,224,745,234,747,246,751,256,754,268,758,279,763,292,764,289,773,274,775,262,781,265,789,265,796,266,804,264,816,255,816,245,816,248,823,249,830,246,834,233,834,226,839,216,831,205,826,189,827,181,815,173,805" href="#" onClick={(e) => {
             e.preventDefault(); // Prevents default <area> behavior
             navigate('/getten'); // Navigate to another route
-          }}  alt="Region4" />
+          }}  alt="Region6" />
+          <area shape="rect" coords="216,740,366,706" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getvirudu'); // Navigate to another route
+          }}  alt="Region7" />
           </map>
             
       </>
