@@ -39,6 +39,14 @@ function Getd() {
             e.preventDefault(); // Prevents default <area> behavior
             navigate('/getvirudu'); // Navigate to another route
           }}  alt="Region7" />
+          <area shape="rect" coords="380,755,544,718" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getram'); // Navigate to another route
+          }}  alt="Region8" />
+          <area shape="poly" coords="186,611,194,612,204,611,219,611,231,610,244,608,252,607,265,607,265,614,267,620,270,629,267,635,266,648,256,660,249,682,238,692,233,706,225,712,217,714,206,702,189,647,182,701,202,704,206,702" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/gettheni'); // Navigate to another route
+          }}  alt="Region9" />
           </map>
             
       </>

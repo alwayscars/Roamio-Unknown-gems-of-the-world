@@ -108,6 +108,7 @@ function Add() {
       <option value="Tenkasi">Tenkasi</option>
       <option value="Virudhunagar">Virdhunagar</option>
       <option value="Ramanathapuram">Ramanathapuram</option>
+      <option value="Theni">Theni</option>
     </select>
     </div>
     <div className="inputGroup">
