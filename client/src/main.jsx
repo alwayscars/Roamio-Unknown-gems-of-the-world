@@ -13,6 +13,7 @@ import Getten from './Get/Getdistrict/Getdataten/getdten.jsx'
 import Getvirudu from './Get/Getdistrict/GetdataVirudhu/virudu.jsx'
 import Getram from './Get/Getdistrict/Getdataram/ram.jsx'
 import Gettheni from './Get/Getdistrict/GetTheni/theni.jsx'
+import Getdin from './Get/Getdistrict/Getdin/getdin.jsx'
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
   {
@@ -67,6 +68,10 @@ const route = createBrowserRouter([
         {
           path:"/gettheni",
           element:<Gettheni/>
+        },
+        {
+          path:"/getdin",
+          element:<Getdin/>
         }
 
 ]);

@@ -47,6 +47,10 @@ function Getd() {
             e.preventDefault(); // Prevents default <area> behavior
             navigate('/gettheni'); // Navigate to another route
           }}  alt="Region9" />
+          <area shape="poly" coords="215,530,225,524,239,523,250,515,262,519,270,522,285,522,299,523,315,525,328,526,338,528,344,534,351,535,351,544,360,550,367,553,369,560,361,567,369,571,373,577,370,590,369,598,364,606,343,602,326,600,318,604,313,609,303,615,291,619,278,621,265,602,253,597,234,601,215,605,209,604,206,587,204,570,202,559" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getdin'); // Navigate to another route
+          }}  alt="Region10" />
           </map>
             
       </>
