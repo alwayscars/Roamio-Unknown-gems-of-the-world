@@ -111,6 +111,10 @@ function Add() {
       <option value="Theni">Theni</option>
       <option value="Dindigul">Dindigul</option>
       <option value="Pudukkottai">Pudukkottai</option>
+      <option value="Coimbatore">Coimbatore</option>
+      <option value="Tiruppur">Tiruppur</option>
+      <option value="Karur">Karur</option>
+
 
     </select>
     </div>

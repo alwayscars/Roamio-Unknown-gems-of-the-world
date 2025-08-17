@@ -14,6 +14,11 @@ import Getvirudu from './Get/Getdistrict/GetdataVirudhu/virudu.jsx'
 import Getram from './Get/Getdistrict/Getdataram/ram.jsx'
 import Gettheni from './Get/Getdistrict/GetTheni/theni.jsx'
 import Getdin from './Get/Getdistrict/Getdin/getdin.jsx'
+import Getpudu from './Get/Getdistrict/Getdatapudu/pudu.jsx'
+import Getcoim from './Get/Getdistrict/GetdataCoim/coim.jsx'
+import Gettir from './Get/Getdistrict/Getdatatir/tir.jsx'
+import Getk from './Get/Getdistrict/Getdatakar/karur.jsx'
+// import Getkarur from './Get/Getdistrict/Getdatakar/karur.jsx'
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
   {
@@ -35,45 +40,60 @@ const route = createBrowserRouter([
         },
         {
           path:"/getkk",
-          element:<Getkk/>
+          element:<Getkk/>,
         },
         {
           path:"/getm",
-          element:<Getm/>
+          element:<Getm/>,
         },
         {
           path:"/getds",
-          element:<Getds/>
+          element:<Getds/>,
         },
         {
           path:"/gettiru",
-          element:<Gettiru/>
+          element:<Gettiru/>,
         },
         {
           path:"/gettoothu",
-          element:<Gettoothu/>
+          element:<Gettoothu/>,
         },
         {
           path:"/getten",
-          element:<Getten/>
+          element:<Getten/>,
         },
         {
            path:"/getvirudu",
-          element:<Getvirudu/>
+          element:<Getvirudu/>,
         },
         {
           path:"/getram",
-          element:<Getram/>
+          element:<Getram/>,
         },
         {
           path:"/gettheni",
-          element:<Gettheni/>
+          element:<Gettheni/>,
         },
         {
           path:"/getdin",
-          element:<Getdin/>
+          element:<Getdin/>,
+        },
+        {
+          path:"/getpudu",
+          element:<Getpudu/>,
+        },
+        {
+          path:"/getcoim",
+          element:<Getcoim/>,
+        },
+        {
+          path:"/gettir",
+          element:<Gettir/>,
+        },
+        {
+          path:"/getkarur",
+          element:<Getk/>
         }
-
 ]);
 createRoot(document.getElementById('root')).render(
    <RouterProvider router={route}></RouterProvider>

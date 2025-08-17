@@ -9,9 +9,9 @@ function App() {
       <h1 className="main-heading">Welcome to Roamio</h1>
       <h2 className="main-heading">You are here to</h2>
       <div className="button-container">
-      <Link to="/addplaces" type="button"  class="btn btn-primary equal-button" > <PencilLine /> Give a place</Link> 
+      <Link to="/addplaces" type="button"  className="btn btn-primary equal-button" > <PencilLine /> Give a place</Link> 
       <h1></h1>
-      <Link to="/getstate" type="button"   class="btn btn-primary equal-button"> <Search />  Search a place</Link>
+      <Link to="/getstate" type="button"   className="btn btn-primary equal-button"> <Search />  Search a place</Link>
       </div>
     </>
   )
