@@ -22,6 +22,7 @@ import Gettrichy from './Get/Getdistrict/GetdataTiruchirappalli/tiruchy.jsx'
 import Gettangore from './Get/Getdistrict/Gettanjore/tanjore.jsx'
 import Gettiruvarur from './Get/Getdistrict/gettiruvarur/tiruvarur.jsx'
 import Getnaga from './Get/Getdistrict/Getnaga/naga.jsx'
+import Getkar from './Get/Getdistrict/Getkaraikal/karaikal.jsx'
 
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
@@ -113,6 +114,10 @@ const route = createBrowserRouter([
         {
           path:"/getnaga",
           element:<Getnaga/>
+        },
+        {
+          path:"/getkar",
+          element:<Getkar/>
         }
 ]);
 createRoot(document.getElementById('root')).render(
