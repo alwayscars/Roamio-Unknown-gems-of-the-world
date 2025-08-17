@@ -87,6 +87,10 @@ function Getd() {
             e.preventDefault(); // Prevents default <area> behavior
             navigate('/getkar'); // Navigate to another route
           }}  alt="Region19"/>
+          <area shape="poly" coords="625,396,632,396,633,402,635,420,636,432,636,445,635,452,628,453,620,455,612,457,604,454,594,460,581,462,582,447,582,433,580,426,600,413,600,403" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getmayil'); // Navigate to another route
+          }}  alt="Region20"/>
 
           </map>
             

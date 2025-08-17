@@ -23,6 +23,7 @@ import Gettangore from './Get/Getdistrict/Gettanjore/tanjore.jsx'
 import Gettiruvarur from './Get/Getdistrict/gettiruvarur/tiruvarur.jsx'
 import Getnaga from './Get/Getdistrict/Getnaga/naga.jsx'
 import Getkar from './Get/Getdistrict/Getkaraikal/karaikal.jsx'
+import Getmayil from './Get/Getdistrict/Mayil/Mayil.jsx'
 
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
@@ -118,6 +119,10 @@ const route = createBrowserRouter([
         {
           path:"/getkar",
           element:<Getkar/>
+        },
+        {
+          path:"/getmayil",
+          element:<Getmayil/>
         }
 ]);
 createRoot(document.getElementById('root')).render(
