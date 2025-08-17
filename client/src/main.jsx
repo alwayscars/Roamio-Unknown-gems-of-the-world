@@ -18,7 +18,11 @@ import Getpudu from './Get/Getdistrict/Getdatapudu/pudu.jsx'
 import Getcoim from './Get/Getdistrict/GetdataCoim/coim.jsx'
 import Gettir from './Get/Getdistrict/Getdatatir/tir.jsx'
 import Getk from './Get/Getdistrict/Getdatakar/karur.jsx'
-// import Getkarur from './Get/Getdistrict/Getdatakar/karur.jsx'
+import Gettrichy from './Get/Getdistrict/GetdataTiruchirappalli/tiruchy.jsx'
+import Gettangore from './Get/Getdistrict/Gettanjore/tanjore.jsx'
+import Gettiruvarur from './Get/Getdistrict/gettiruvarur/tiruvarur.jsx'
+import Getnaga from './Get/Getdistrict/Getnaga/naga.jsx'
+
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
   {
@@ -93,6 +97,22 @@ const route = createBrowserRouter([
         {
           path:"/getkarur",
           element:<Getk/>
+        },
+        {
+          path:"/gettiruchy",
+          element:<Gettrichy/>
+        },
+        {
+          path:"/gettangore",
+          element:<Gettangore/>
+        },
+        {
+          path:"/gettiruvarur",
+          element:<Gettiruvarur/>
+        },
+        {
+          path:"/getnaga",
+          element:<Getnaga/>
         }
 ]);
 createRoot(document.getElementById('root')).render(

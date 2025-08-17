@@ -67,6 +67,22 @@ function Getd() {
             e.preventDefault(); // Prevents default <area> behavior
             navigate('/getkarur'); // Navigate to another route
           }}  alt="Region14"/>
+          <area shape="rect" coords="375,447,511,471" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/gettiruchy'); // Navigate to another route
+          }}  alt="Region15"/>
+          <area shape="poly" coords="528,465,519,469,510,471,500,472,496,477,484,478,466,490,465,503,466,514,477,514,488,508,496,513,499,517,507,522,513,531,548,578,541,475,539,471,534,463,536,461,538,464,538,465" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/gettangore'); // Navigate to another route
+          }}  alt="Region16"/>
+          <area shape="poly" coords="548,508,561,496,572,490,583,478,603,466,605,471,596,478,599,485,600,492,612,489,608,499,605,506,603,519,603,534,611,541,606,551,599,557,599,569,600,575,591,569,581,569,578,576,568,543" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/gettiruvarur'); // Navigate to another route
+          }}  alt="Region17"/>
+          <area shape="poly" coords="633,486,623,475,613,472,604,480,604,489,615,488,614,493,609,501,608,506,605,515,605,524,609,537,614,534,612,547,608,555,603,564,607,574,617,574,615,580,630,580,639,580,636,517" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getnaga'); // Navigate to another route
+          }}  alt="Region18"/>
 
           </map>
             

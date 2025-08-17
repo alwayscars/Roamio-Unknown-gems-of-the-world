@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import axios from "axios";
 import "../districtsstyle.css"
-function Getds() {
+function Gettangore() {
   const[place,setplace]=useState([])
   useEffect(()=>{
     const fetchData =async()=>{
       try{
-       const response=  await axios.get("http://localhost:8000/places/TamilNadu/Sivagangai");
+       const response=  await axios.get("http://localhost:8000/places/TamilNadu/Thanjavur");
        setplace(response.data)
       }catch(error){
         console.log("Error fetching data",error)
@@ -20,7 +20,7 @@ function Getds() {
       <>
         <Link to="/getdistrict" className="custom-button back-button" aria-label="Go back" type="button"><ArrowLeftIcon className="back-button-icon" /></Link>
         <h1 className="heading-primary font-medium text-5xl md:text-7xl tracking-[-2.16px] leading-tight mb-8">
-                Gems of Sivaganga
+                Gems of Thanjavur
               </h1>
         {place.length===0 ?(
       <div className='noData'>
@@ -76,4 +76,4 @@ function Getds() {
     )
   }
   
-  export default Getds
+  export default Gettangore
