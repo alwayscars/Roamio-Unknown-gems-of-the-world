@@ -24,6 +24,9 @@ import Gettiruvarur from './Get/Getdistrict/gettiruvarur/tiruvarur.jsx'
 import Getnaga from './Get/Getdistrict/Getnaga/naga.jsx'
 import Getkar from './Get/Getdistrict/Getkaraikal/karaikal.jsx'
 import Getmayil from './Get/Getdistrict/Mayil/Mayil.jsx'
+import Getariyal from './Get/Getdistrict/GetAriyalur/Ariyal.jsx'
+import Getperam from './Get/Getdistrict/GetPeram/peram.jsx'
+import Getnamakkal from './Get/Getdistrict/Getnamakkal/namakkal.jsx'
 
 // import UpdateUser from './updateuser/Update.jsx'
 const route = createBrowserRouter([
@@ -123,6 +126,18 @@ const route = createBrowserRouter([
         {
           path:"/getmayil",
           element:<Getmayil/>
+        },
+        {
+          path:"/getariyal",
+          element:<Getariyal/>
+        },
+        {
+          path:"/getperam",
+          element:<Getperam/>
+        },
+        {
+          path:"/getnamakkal",
+          element:<Getnamakkal/>
         }
 ]);
 createRoot(document.getElementById('root')).render(

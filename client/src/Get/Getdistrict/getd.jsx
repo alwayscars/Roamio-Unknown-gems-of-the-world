@@ -91,7 +91,18 @@ function Getd() {
             e.preventDefault(); // Prevents default <area> behavior
             navigate('/getmayil'); // Navigate to another route
           }}  alt="Region20"/>
-
+          <area shape="poly" coords="509,406,515,398,521,394,534,391,544,386,554,394,559,397,563,401,574,409,571,418,566,429,556,443,547,448,531,462,508,470,495,475,483,468" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getariyal'); // Navigate to another route
+          }}  alt="Region21"/>
+          <area shape="poly" coords="457,381,456,368,462,369,468,374,478,382,485,389,493,390,514,393,514,399,508,408,504,419,500,424,498,436,489,444,472,440,463,441,457,442,447,440,440,444,434,435,442,405,448,388" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getperam'); // Navigate to another route
+          }}  alt="Region22"/>
+          <area shape="poly" coords="456,386,452,374,463,368,483,388,519,393,507,406,508,416,498,422,497,434,494,441,486,447,474,440,467,441,457,447,450,435,441,447,436,422,447,405,447,385" href="#" onClick={(e) => {
+            e.preventDefault(); // Prevents default <area> behavior
+            navigate('/getnamakkal'); // Navigate to another route
+          }}  alt="Region23"/>
           </map>
             
       </>
